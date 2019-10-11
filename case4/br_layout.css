@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Case Problem 4
+   
+   Browyer Realty Layout Styles
+   Author: Isaiah Romo
+   Date: 10/10/19
+	
+   Filename: br_styles.css
+
+*/
+
+html {
+	height: 100%;
+	font-size: 12px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+body{
+	margin: 0px auto;
+	width: 1100px;
+}
+body > header > img{
+	display: block;
+	width: 100%;
+}
+body header nav#home li{
+	display: block;
+	float: left;
+	position: relative;
+	width: 20%;
+}
+body > header > nav#home li a{
+    background-color: black;
+    color: white;
+	display: block;
+	height: 3em;
+	line-height: 3em;
+	font-size: 1.2em;
+	letter-spacing: 0.15em;
+	text-align: center;
+    width: 100%;
+}
+nav#details li{
+	display: block;
+	float: left;
+	position: relative;
+	width: 25%;
+}
+nav#details li a{
+    background-color: black;
+    color: white;
+	display: block;
+	height: 3em;
+	line-height: 3em;
+	font-size: 1.2em;
+	letter-spacing: 0.15em;
+	text-align: center;
+    width: 100%;
+}
+article{
+    font-size: 1.5em;
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 2em;
+}
+section{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+img#Views{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+address{
+    font-size: 1.25em;
+    display: block;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    line-height: 2em;
+}
+blockquote{
+    font-size: 1.25em;
+    display: block;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    line-height: 2em;
+}

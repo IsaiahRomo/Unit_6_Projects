@@ -58,33 +58,23 @@ div#cube{
    height: 400px;
    perspective: 450px;
 }
-div#cube_front.cube_face{
+div.cube_face{
    position: absolute;
    width: 400px;
    height: 400px;
+}
+div#cube_front.cube_face{
    transform: translateZ(-50px);
 }
 div#cube_bottom.cube_face{
-   position: absolute;
-   width: 400px;
-   height: 400px;
    transform: translateY(200px) rotateX(90deg);
 }
 div#cube_left.cube_face{
-   position: absolute;
-   width: 400px;
-   height: 400px;
    transform: translateX(-200px) rotateY(90deg);
 }
 div#cube_right.cube_face{
-   position: absolute;
-   width: 400px;
-   height: 400px;
    transform: translateX(200px) rotateY(-90deg);
 }
 div#cube_top.cube_face{
-   position: absolute;
-   width: 400px;
-   height: 400px;
    transform: translateY(-200px) rotateX(-90deg);
 }
